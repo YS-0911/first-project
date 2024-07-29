@@ -68,7 +68,7 @@ function reset() {
     userInput.value = ""
     //새로운 번호 생성
     pickRandomNum();
-    resultArea.textContent = "결과값이 여기 나옵니다.";
+    resultArea.textContent = "숫자를 입력하세요.";
     gameOver = false;
     playButton.disabled = false;
     chance = 5;
