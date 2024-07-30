@@ -24,7 +24,7 @@ function pickRandomNum() {
 
 function play() {
     let userValue = userInput.value;
-    // console.log(userValue);
+    console.log("입력", userValue);
 
     if (userValue < 1 || userValue > 100){
         resultArea.textContent = "1과 100사이 숫자를 입력해 주세요";

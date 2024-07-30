@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 #box1 {
-    height: 200px;
+    height: 250px;
     width: 300px;
     border: 10px solid white;
     border-radius: 20px;
@@ -22,6 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 #user-input {
     height: 40px;
